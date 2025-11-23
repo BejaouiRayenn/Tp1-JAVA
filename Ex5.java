@@ -7,7 +7,7 @@ public class Ex5 {
         try {
             nombre = Integer.parseInt(args[0]);
         } catch (NumberFormatException e) {
-            System.out.println("Erreur: L'argument doit être un entier valide.");
+            System.out.println(" L'argument doit être un entier valide.");
             return;
         }
         if (nombre < 0) {
@@ -25,4 +25,7 @@ public class Ex5 {
         System.out.println("La factorielle de " + nombre + " est " + factorielle);
     }
 }
+
 }
+
+
